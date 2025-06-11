@@ -1,3 +1,9 @@
+ADDENDUM II (May 2025)
+
+Added the capability to open a web browser with the selected web site defined in entry_3. This functionality is  enabled by using the web button
+
+Verified all websites and eleiminated a few sites not required anymore.
+
 ADDENDUM (May 2025)
 
 ### Psswd.py
