@@ -7,7 +7,6 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import re
-import webbrowser
 
 # Function needed to fill the listbox. The list can be sorted data or the current searched sites 
 def updateListbox(items_list_listbox):
