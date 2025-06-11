@@ -108,9 +108,9 @@
     {
       "name": "HOS",
       "username": "altamirano1531@gmail.com",
-      "password": "Chupacabras",
+      "password": "Pfizer2020!",
       "website": "http://www.hos.com",
-      "notes": ""
+      "notes": "\n"
     },
     {
       "name": "Hacienda",
@@ -125,13 +125,6 @@
       "password": "Turicates1!",
       "website": "https://healthcare.gov",
       "notes": "\n"
-    },
-    {
-      "name": "Horizon Hobby",
-      "username": "altamirano1531@gmail.com",
-      "password": "Turicates1",
-      "website": "https://www.horizonhobby.com/",
-      "notes": ""
     },
     {
       "name": "Hulu",
@@ -160,13 +153,6 @@
       "password": "Turicates1",
       "website": "https://www.khanacademy.org/",
       "notes": ""
-    },
-    {
-      "name": "LSU",
-      "username": "aaltam6",
-      "password": "Find out",
-      "website": "WEB site",
-      "notes": "\n\n"
     },
     {
       "name": "LinkedIn",
@@ -291,8 +277,8 @@
       "name": "SageSure",
       "username": "altamirano1531@gmail.com",
       "password": "Turicates1!",
-      "website": "https://myu.sagesure.com",
-      "notes": "\n"
+      "website": "https://sagesure.com",
+      "notes": "\n\n"
     },
     {
       "name": "Samsung",
@@ -320,13 +306,6 @@
       "username": "altamirano123",
       "password": "Turicates1",
       "website": "https://mystanfordconnection.stanford.edu/portal/logon.do?method=load",
-      "notes": ""
-    },
-    {
-      "name": "Stanford Slack",
-      "username": "altamirano1531@gmail.com",
-      "password": "Turicates1!",
-      "website": "https://stanford.enterprise.slack.com/signing",
       "notes": ""
     },
     {
@@ -396,8 +375,8 @@
       "name": "Via Benefits",
       "username": "altamirano1531@gmail.com",
       "password": "Turicates1!",
-      "website": "https://apps.viabenefits.com/home",
-      "notes": "\n\n"
+      "website": "https://viabenefits.com/home",
+      "notes": "\n\n\n"
     },
     {
       "name": "Wall Street Journal",
@@ -405,20 +384,6 @@
       "password": "Turicates1",
       "website": "http://www.hos.com",
       "notes": ""
-    },
-    {
-      "name": "XCS234-SCPD",
-      "username": "altamirano1531@gmail.com",
-      "password": "Turicates1!",
-      "website": "http://xcs234-scpd.slack.com/",
-      "notes": "\n\n\n"
-    },
-    {
-      "name": "Xerxes",
-      "username": "",
-      "password": "",
-      "website": "",
-      "notes": "\n"
     },
     {
       "name": "Xfinity",

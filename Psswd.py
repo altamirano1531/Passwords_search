@@ -7,6 +7,7 @@ import cryptography
 from cryptography.fernet import Fernet
 import os
 import re
+import webbrowser
 
 # Function needed to fill the listbox. The list can be sorted data or the current searched sites 
 def updateListbox(items_list_listbox):
@@ -58,7 +59,7 @@ data = json.loads(decrypted)
 # Instantiate the Tk class and user interface window.
 window = tk.Tk(screenName = "My Passwords", className = 'Passwords')
 window.title("Password Dictionary Search")
-window.geometry('350x600')
+window.geometry('350x650')
 
 frame = tk.Frame(window)
 frame.place(relx=0.5, rely=0.5, anchor=CENTER)
@@ -312,7 +313,8 @@ def new():
     # Clear the user message field
     entry_6.delete(0, END)
     entry_6.insert(0, "Enter data in each field then SAVE")
-
+def web():
+    webbrowser.open(entry_3.get())
 
 # Handle the user selection from the listbox and enter selection in entry field and display selection data.
 def list_clicked(event):
@@ -398,6 +400,13 @@ button_new.grid(row=15, column=1)
 
 button_delete = tk.Button(frame, text="DELETE", command=delete, state='active')
 button_delete.grid(row=15, column=1, sticky=E)
+
+# Display general label about the browsing fields
+tk.Label(frame, text='BROWSING', font=('Arial Bold', 8)).grid(row=16, column=1, columnspan=1, pady=5)
+
+button_web = tk.Button(frame, text=" WEB ", command=web, state='active')
+button_web.grid(row=17, column=1)
+
 
 # Run the main loop
 window.mainloop()
